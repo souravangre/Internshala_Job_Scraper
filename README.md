@@ -1,5 +1,5 @@
 
- 📩 Internshala Job Scraper & Email Notifier
+ <h1>📩 Internshala Job Scraper & Email Notifier</h1>
 
 A Python automation project that scrapes the latest **Full Stack Developer jobs** from [Internshala.com](https://internshala.com), stores them in a `.csv` file, and emails the file to you every 24 hours.
 
