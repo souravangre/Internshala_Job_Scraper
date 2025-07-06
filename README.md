@@ -23,7 +23,7 @@ Perfect for automating your job hunt or showcasing your automation skills in Dev
 ```csv
 Job_Title,Company,Location,Salary,Apply_Link
 "Full Stack Developer","ABC Pvt Ltd","Bangalore","₹ 4,00,000","https://internshala.com/job/detail/full-stack-developer-job-in-bangalore-at-abc-pvt-ltd1234567890"
-
+```
 ---
 
 ## 🛠️ Tech Stack
