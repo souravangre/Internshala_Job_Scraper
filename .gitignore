@@ -1,0 +1,13 @@
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+venv/
+
+.env
+
+*.bat
+
+mail.py
+soup.py
