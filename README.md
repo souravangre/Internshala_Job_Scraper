@@ -1,5 +1,5 @@
-````markdown
-# 📩 Internshala Job Scraper & Email Notifier
+
+ 📩 Internshala Job Scraper & Email Notifier
 
 A Python automation project that scrapes the latest **Full Stack Developer jobs** from [Internshala.com](https://internshala.com), stores them in a `.csv` file, and emails the file to you every 24 hours.
 
@@ -7,7 +7,7 @@ Perfect for automating your job hunt or showcasing your automation skills in Dev
 
 ---
 
-## 🚀 Features
+ 🚀 Features
 
 - 🔎 Scrapes job listings from **multiple pages**
 - 📊 Saves job title, company, location, salary, and job link in CSV
@@ -23,8 +23,6 @@ Perfect for automating your job hunt or showcasing your automation skills in Dev
 ```csv
 Job_Title,Company,Location,Salary,Apply_Link
 "Full Stack Developer","ABC Pvt Ltd","Bangalore","₹ 4,00,000","https://internshala.com/job/detail/full-stack-developer-job-in-bangalore-at-abc-pvt-ltd1234567890"
-...
-````
 
 ---
 
