@@ -135,7 +135,8 @@ Your Python Bot
 
 ### 📜 License
 
-MIT License. Free to use and modify.
+This project is licensed under the [MIT License](./LICENSE).
+
 
 ---
 
