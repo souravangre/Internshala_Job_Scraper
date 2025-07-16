@@ -11,3 +11,5 @@ venv/
 
 mail.py
 soup.py
+
+internshala.db
