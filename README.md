@@ -1,4 +1,3 @@
----
 
 ## 🚀 Internshala Job Alert App
 
@@ -111,8 +110,6 @@ python job_dispatcher.py
 ---
 
 ### 📸 UI Screenshots
-
-Add screenshots here of:
 
 * 🧍 Register/Login pages
 * 🧾 Preferences form
