@@ -8,6 +8,4 @@ venv/
 .env
 
 *.bat
-
-mail.py
-soup.py
+*.db

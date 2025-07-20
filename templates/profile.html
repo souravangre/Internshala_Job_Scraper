@@ -1,0 +1,24 @@
+{% extends "home.html" %}
+
+{% block content %}
+<div class="container-box mt-5">
+    <h1 class="mb-4">Your Profile</h1>
+
+    <div class="card shadow-lg p-4 bg-light border-0 rounded-4" style="text-align: left;">
+        <div class="mb-3">
+            <h5><strong>Name:</strong> {{ user.username }}</h5>
+        </div>
+        <div class="mb-3">
+            <h5><strong>Email:</strong> {{ user.email }}</h5>
+        </div>
+        <div class="mb-3">
+            <h5><strong>Role:</strong> {{ preference.keyword }}</h5>
+        </div>
+        <div class="mb-3">
+            <h5><strong>Location:</strong> {{ preference.location }}</h5>
+        </div>
+    </div>
+
+    <a href="{{ url_for('preferences') }}" class="btn btn-warning mt-4">Edit Preferences</a>
+</div>
+{% endblock %}
