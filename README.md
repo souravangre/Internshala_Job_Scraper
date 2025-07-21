@@ -7,6 +7,10 @@ A Flask-based web application that allows users to register, set job preferences
 
 This project demonstrates automation, web scraping, backend development, and deployment readiness using Docker and Gunicorn.
 
+🌐Live 
+```bash
+https://intern-alert-app-v1.onrender.com
+```
 Run with Docker
 ```bash
 docker pull souravangre/intern_alert_app:v1
