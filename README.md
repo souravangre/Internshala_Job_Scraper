@@ -1,12 +1,17 @@
 
 ---
 
-## 🚀 Internshala Job Alert App
+## 🚀 InternAlert - Internshala Job Alert App
 
 A Flask-based web application that allows users to register, set job preferences (e.g., Full Stack Developer), and receive daily job alerts scraped from [Internshala](https://internshala.com). The app uses BeautifulSoup for scraping, SQLite for storage, and includes email alerts with job listings in CSV format.
 
 This project demonstrates automation, web scraping, backend development, and deployment readiness using Docker and Gunicorn.
 
+Run with Docker
+```bash
+docker pull souravangre/intern_alert_app:v1
+docker run -d -p 8000:8000 souravangre/intern_alert_app:v1
+```
 ---
 
 ### 📌 Features
@@ -28,8 +33,7 @@ This project demonstrates automation, web scraping, backend development, and dep
 | Backend          | Python, Flask           |
 | Web Scraping     | BeautifulSoup, Requests |
 | Frontend         | HTML, Bootstrap         |
-| Database         | SQLite + SQLAlchemy     |
-| Auth             | Flask-Login             |
+| Database         | SQLite + SQLAlchemy     |            
 | Email            | SMTP + `smtplib`        |
 | Production       | Gunicorn (via Docker)   |
 | Deployment Ready | Docker + Gunicorn       |
@@ -97,8 +101,8 @@ gunicorn app:app --workers 4 --worker-class gthread --timeout 30
 #### 6. Docker Setup
 
 ```bash
-docker build -t internalert .
-docker run -d -p 5000:5000 internalert
+docker build -t yourimgname .
+docker run -d -p 5000:5000 yourimgname
 ```
 
 ---
@@ -136,7 +140,7 @@ This project is licensed under the [MIT License](LICENSE).
 ### 🙋‍♂️ Author
 
 **Sourav Angre**
-IT Student | Python & Cloud Enthusiast
+  IT Student | Python & Cloud Enthusiast
 [LinkedIn](https://www.linkedin.com/in/sourav-angre) • [GitHub](https://github.com/souravangre)
 
 ---

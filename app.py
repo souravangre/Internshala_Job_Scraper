@@ -57,7 +57,7 @@ def login():
             session['user_id'] = user.id  
             return redirect(url_for('preferences'))
         else:
-            return "User not found."
+            flash("User not found.Please Register !")
     return render_template('login.html')
 
 @app.route('/preferences', methods=['GET', 'POST'])

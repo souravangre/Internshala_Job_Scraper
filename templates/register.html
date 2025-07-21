@@ -1,6 +1,15 @@
 {% extends "home.html" %}
 
 {% block content %}
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+<div class="alert alert-success alert-dismissible fade show text-center mt-3" role="alert">
+  {{ messages[0] }}
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{% endif %}
+{% endwith %}
+
 <div class="container-box">
   <h1>Register</h1>
   <form method="POST" action="{{ url_for('register') }}">

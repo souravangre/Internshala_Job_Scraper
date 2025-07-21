@@ -31,6 +31,8 @@ HEADERS = {
     "Accept-Language": "en-GB,en;q=0.9"
 }
 
+
+
 # Scrape the website and save the data in CSV
 def scrape_jobs_to_csv(base_url, filename="jobs.csv", pages=5):
     """
