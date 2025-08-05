@@ -20,7 +20,7 @@ This project demonstrates automation, web scraping, backend development, and dep
 ```bash
 docker pull souravangre/intern_alert_app:v1
 docker run -d -p 8000:8000 souravangre/intern_alert_app:v1
-````
+```
 
 <details>
 <summary>📸 Screenshots</summary>
