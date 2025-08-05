@@ -1,0 +1,12 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+        "Name": "souravangre/intern_alert_app:v1",
+        "Update": "true"
+    },
+    "Ports": [
+        {
+            "ContainerPort": "8000"
+        }
+    ]
+}
