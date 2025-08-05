@@ -6,7 +6,7 @@ This project demonstrates automation, web scraping, backend development, and dep
 
 🌐 Live
 
-- Render (v1):``` https://intern-alert-app-v1.onrender.com ```
+- Render :``` https://intern-alert-app-v1.onrender.com ```
 - AWS EB (Dockerized): [Elastic Beanstalk deployment, on-demand or local only] 
 ---
 
@@ -205,7 +205,3 @@ IT Student | Python & Cloud Enthusiast
 [LinkedIn](www.linkedin.com/in/sourav-angre) • [GitHub](https://github.com/souravangre)
 
 ```
-
-
-
-
