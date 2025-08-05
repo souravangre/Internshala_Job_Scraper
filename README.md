@@ -1,14 +1,13 @@
-🚀 InternAlert - Internshala Job Alert App
+##🚀 InternAlert - Internshala Job Alert App
 
 A Flask-based web application that allows users to register, set job preferences (e.g., Full Stack Developer), and receive daily job alerts scraped from Internshala. The app uses BeautifulSoup for scraping, SQLite for storage, and includes email alerts with job listings in CSV format.
 
 This project demonstrates automation, web scraping, backend development, and deployment readiness using Docker and Gunicorn.
 
 🌐 Live
-```bash
-- Render (v1): https://intern-alert-app-v1.onrender.com
-- AWS EB (Dockerized): [Elastic Beanstalk deployment, on-demand or local only] http://docker-eb-deployment-env.eba-vy3veyge.ap-south-1.elasticbeanstalk.com/login
-```
+
+- Render (v1):``` https://intern-alert-app-v1.onrender.com ```
+- AWS EB (Dockerized): [Elastic Beanstalk deployment, on-demand or local only] 
 ---
 
 📦 Deployment Options
@@ -22,9 +21,12 @@ docker run -d -p 8000:8000 souravangre/intern_alert_app:v1
 
 <details>
 <summary>📸 Screenshots</summary>
-
-- ![APP on AWS](screenshots/01-create-app.png)
-- ![EB and Health checks](screenshots/03-upload-zip.png)
+- ![Architechture](<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/78e9671a-6892-44fb-9be1-d01d3fa0db86" />
+)
+- ![APP on AWS](<img width="1366" height="698" alt="Screenshot 2025-08-05 142048" src="https://github.com/user-attachments/assets/43cc8077-e803-4ffc-a7a4-4d6e3e23c83d" />
+)
+- ![EB and Health checks](<img width="1364" height="722" alt="Screenshot 2025-08-05 141947" src="https://github.com/user-attachments/assets/e221cf4c-ae53-49dc-bc55-2097bbe960e5" />
+)
 
 </details>
 
